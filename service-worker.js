@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/YosorTV-hillel-react-hw-4/precache-manifest.9b8234d405d97fc7668cd7d01a37a182.js"
+  "/YosorTV-hillel-react-hw-4/precache-manifest.47df9fec90b16150dba5490b8d504c24.js"
 );
 
 self.addEventListener('message', (event) => {

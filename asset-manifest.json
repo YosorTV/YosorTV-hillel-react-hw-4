@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/YosorTV-hillel-react-hw-4/static/css/main.474fa9e0.chunk.css",
-    "main.js": "/YosorTV-hillel-react-hw-4/static/js/main.a5068bef.chunk.js",
-    "main.js.map": "/YosorTV-hillel-react-hw-4/static/js/main.a5068bef.chunk.js.map",
+    "main.css": "/YosorTV-hillel-react-hw-4/static/css/main.087b63bf.chunk.css",
+    "main.js": "/YosorTV-hillel-react-hw-4/static/js/main.3ad97559.chunk.js",
+    "main.js.map": "/YosorTV-hillel-react-hw-4/static/js/main.3ad97559.chunk.js.map",
     "runtime-main.js": "/YosorTV-hillel-react-hw-4/static/js/runtime-main.4d2c8350.js",
     "runtime-main.js.map": "/YosorTV-hillel-react-hw-4/static/js/runtime-main.4d2c8350.js.map",
-    "static/js/2.e65b5a5b.chunk.js": "/YosorTV-hillel-react-hw-4/static/js/2.e65b5a5b.chunk.js",
-    "static/js/2.e65b5a5b.chunk.js.map": "/YosorTV-hillel-react-hw-4/static/js/2.e65b5a5b.chunk.js.map",
+    "static/js/2.d472d68b.chunk.js": "/YosorTV-hillel-react-hw-4/static/js/2.d472d68b.chunk.js",
+    "static/js/2.d472d68b.chunk.js.map": "/YosorTV-hillel-react-hw-4/static/js/2.d472d68b.chunk.js.map",
     "index.html": "/YosorTV-hillel-react-hw-4/index.html",
-    "precache-manifest.9b8234d405d97fc7668cd7d01a37a182.js": "/YosorTV-hillel-react-hw-4/precache-manifest.9b8234d405d97fc7668cd7d01a37a182.js",
+    "precache-manifest.47df9fec90b16150dba5490b8d504c24.js": "/YosorTV-hillel-react-hw-4/precache-manifest.47df9fec90b16150dba5490b8d504c24.js",
     "service-worker.js": "/YosorTV-hillel-react-hw-4/service-worker.js",
-    "static/css/main.474fa9e0.chunk.css.map": "/YosorTV-hillel-react-hw-4/static/css/main.474fa9e0.chunk.css.map",
-    "static/js/2.e65b5a5b.chunk.js.LICENSE.txt": "/YosorTV-hillel-react-hw-4/static/js/2.e65b5a5b.chunk.js.LICENSE.txt"
+    "static/css/main.087b63bf.chunk.css.map": "/YosorTV-hillel-react-hw-4/static/css/main.087b63bf.chunk.css.map",
+    "static/js/2.d472d68b.chunk.js.LICENSE.txt": "/YosorTV-hillel-react-hw-4/static/js/2.d472d68b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4d2c8350.js",
-    "static/js/2.e65b5a5b.chunk.js",
-    "static/css/main.474fa9e0.chunk.css",
-    "static/js/main.a5068bef.chunk.js"
+    "static/js/2.d472d68b.chunk.js",
+    "static/css/main.087b63bf.chunk.css",
+    "static/js/main.3ad97559.chunk.js"
   ]
 }
