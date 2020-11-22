@@ -1,14 +1,9 @@
 import React from 'react';
 import './index.scss';
 
-const Sticker = ({sticker, onChange, onRemove, onSave}) => {
+const Sticker = ({sticker, onChange, onRemove, onSave, onEdit}) => {
 
 let prevPosition = {x:0, y:0};
-
-const onValueChange = (({target}) => {
-  const {name, value} = target;
-  onChange(sticker.id, { [name]: value });
-})
 
 const dragging = (({clientX, clientY}) => {
   const { x, y } = sticker;
@@ -43,21 +38,26 @@ const startDrag = (({clientX, clientY}) => {
   return(
     <div style={getStickerStyle()} className="sticker">
       <div className="button-group">
-        <button 
-          onMouseDown={startDrag}
-          onMouseUp={() => onSave(sticker.id)}        
-        >
+
+        <button onMouseDown={startDrag} onMouseUp={() => onSave(sticker.id)}>
           <i className="far fa-dot-circle" />
         </button>
-          <span>Sticker - {sticker.id}</span>
-        <button onClick={() => onRemove(sticker.id)}>
+
+          <span>{sticker.title} №{sticker.id}</span>
+
+        <button onClick={() => onEdit(sticker)}>
+          <i className="fas fa-edit"></i>
+        </button>
+
+        <button onClick={() => onRemove(sticker)}>
           <i className="fa fa-plus" aria-hidden="true" />
         </button>
+
       </div>
       <textarea 
         name="description"
+        readOnly={true}
         value={sticker.description}
-        onChange={onValueChange}
         onBlur={() => onSave(sticker.id)}
       />
     </div>

@@ -2,16 +2,17 @@ import React, {Fragment} from 'react';
 
 import Sticker from './Sticker';
 
-const StickerList = ({ stickers, onChange, onRemove, onSave }) => {
+const StickerList = ({ stickers, onEdit, onChange, onRemove, onSave }) => {
   return (
     <Fragment>
       {stickers.map((sticker) => (
         <Sticker 
-          key={sticker.id}
-          sticker={sticker}
-          onChange={onChange}
-          onRemove={onRemove}
-          onSave={onSave}
+        key={sticker.id}
+        sticker={sticker}
+        onRemove={onRemove}
+        onEdit={onEdit}
+        onChange={onChange}
+        onSave={onSave}
         />
       ))}
     </Fragment>
